@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import Home from './components/home/Home';
+import CarouselPart from './components/home/CarouselPart';
+
 import News from './components/news/News';
 import Contact from './components/contact/Contact';
 import Navbar from 'react-bootstrap/Navbar';
@@ -44,7 +46,7 @@ function App() {
 
        
 
-        <hr />
+       
 
         {/*
           A <Switch> looks through all its children <Route>
