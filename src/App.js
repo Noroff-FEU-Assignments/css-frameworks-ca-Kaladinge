@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import Home from './components/home/Home';
-import CarouselPart from './components/home/CarouselPart';
+
 
 import News from './components/news/News';
 import Contact from './components/contact/Contact';
@@ -43,11 +43,6 @@ function App() {
           </Container>
         </Navbar>
 
-
-       
-
-       
-
         {/*
           A <Switch> looks through all its children <Route>
           elements and renders the first one whose path
@@ -67,7 +62,16 @@ function App() {
           </Route>
         </Switch>
       </div>
+
+      <Container>
+        <div className="footer">
+            <div>icons</div>
+            <div>hello@yay.com</div>
+            <div>Copyright 2020</div>
+        </div>
+      </Container>
     </Router>
+    
   );
 }
 
