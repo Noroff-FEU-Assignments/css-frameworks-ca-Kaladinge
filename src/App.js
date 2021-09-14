@@ -1,5 +1,5 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './sass/style.scss';
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import Home from './components/Home';
@@ -19,7 +19,7 @@ function App() {
   return (
     <Router>
       <div>
-       <Navbar bg="light" expand="lg">
+       <Navbar bg="dark" variant="dark" expand="lg">
           <Container>
             <Navbar.Brand href="#home">The YAY Company</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
