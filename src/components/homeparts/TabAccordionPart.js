@@ -13,19 +13,19 @@ function TabAccordionPart() {
                     <div className="d-none d-md-block">
                         <Tabs defaultActiveKey="first" id="uncontrolled-tab-example" className="mb-3">
                             <Tab eventKey="first" title="First">
-                                <div className="my-flex">
+                                <div className="tabs-content">
                                     <img src= {firstPicture}/>
                                     <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
                                 </div> 
                             </Tab>
                             <Tab eventKey="second" title="Second">
-                                <div className="my-flex">
+                                <div className="tabs-content">
                                     <img src= {secondPicture}/>
                                     <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
                                 </div>  
                             </Tab>
                             <Tab eventKey="third" title="Third">
-                                <div className="my-flex">
+                                <div className="tabs-content">
                                     <img src= {thirdPicture}/>
                                     <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
                                 </div>   
@@ -35,29 +35,33 @@ function TabAccordionPart() {
                     </div>
                         <Accordion defaultActiveKey="0" className="d-md-none">
                                 <Accordion.Item eventKey="0">
-                                    <Accordion.Header>Lorem</Accordion.Header>
+                                    <Accordion.Header>First</Accordion.Header>
                                     <Accordion.Body>
-                                Suspendisse massa diam, efficitur eu massa euismod, pretium lacinia magna.
+                                 <div className="accordion-content">
+                                    <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
+                                    <img src= {firstPicture}/>
+                                </div>   
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="1">
-                                    <Accordion.Header>Ipsum</Accordion.Header>
+                                    <Accordion.Header>Second</Accordion.Header>
                                     <Accordion.Body>
-                                    Suspendisse massa diam, efficitur eu massa euismod, pretium lacinia magna.
+                                     <div className="accordion-content">
+                                    <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
+                                    <img src= {secondPicture}/>
+                                </div>   
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="2">
-                                    <Accordion.Header>Dolor</Accordion.Header>
+                                    <Accordion.Header>Third</Accordion.Header>
                                     <Accordion.Body>
-                                    Suspendisse massa diam, efficitur eu massa euismod, pretium lacinia magna.
+                                     <div className="accordion-content">
+                                    <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
+                                    <img src= {thirdPicture}/>
+                                </div>   
                                     </Accordion.Body>
                                 </Accordion.Item>
-                                <Accordion.Item eventKey="3">
-                                    <Accordion.Header>Porta</Accordion.Header>
-                                    <Accordion.Body>
-                                    Suspendisse massa diam, efficitur eu massa euismod, pretium lacinia magna.
-                                    </Accordion.Body>
-                                </Accordion.Item>
+                               
                     </Accordion>
         </>
         

@@ -2,11 +2,11 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
-import Home from './components/home/Home';
+import Home from './components/Home';
 
 
-import News from './components/news/News';
-import Contact from './components/contact/Contact';
+import News from './components/News';
+import Contact from './components/Contact';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Form from 'react-bootstrap/Form';

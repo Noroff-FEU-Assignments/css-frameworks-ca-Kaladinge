@@ -1,8 +1,8 @@
 import React from 'react'
-import CarouselPart from './CarouselPart'
+import CarouselPart from './homeparts/CarouselPart'
 import Container from 'react-bootstrap/Container'
-import TextPart from './TextPart'
-import TabAccordionPart from './TabAccordionPart'
+import TextPart from './homeparts/TextPart'
+import TabAccordionPart from './homeparts/TabAccordionPart'
 
 function Home() {
     return (
@@ -10,8 +10,6 @@ function Home() {
             <CarouselPart/>
             <Container>
                 <TextPart/>
-            </Container>
-            <Container>
                 <TabAccordionPart/>
             </Container>
         </>
