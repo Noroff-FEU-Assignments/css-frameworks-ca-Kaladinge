@@ -1,3 +1,5 @@
+/* tabs */
+
 .tabs__folder {
   background-color: white;
   padding: 30px;
@@ -18,6 +20,37 @@ li {
   width: 238px;
 }
 
-.tabs__column {
-  border: 1px solid green;
+.tabs__icon,
+.accordion__icon {
+  margin: 35px 20px 0 0;
+  color: black;
+  font-size: 25px;
+}
+
+/* accordion */
+
+.colors {
+  color: $cherry;
+  background-color: $white;
+}
+
+.accordion-button:not(.collapsed) {
+  @extend .colors;
+  border-bottom: 1px solid $cherry;
+}
+
+.accordion-button {
+  @extend .colors;
+}
+
+.accordion__body {
+  background-color: $grey;
+}
+
+.accordion__image {
+  width: 100%;
+}
+
+.accordion__iconholder {
+  text-align: center;
 }

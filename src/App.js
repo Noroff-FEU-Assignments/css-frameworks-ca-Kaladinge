@@ -56,13 +56,15 @@ function App() {
         </Switch>
       </div>
 
-      <Container>
+      
         <div className="footer">
-            <div>icons</div>
-            <div>hello@yay.com</div>
-            <div>Copyright 2020</div>
+          <Container className="footer__container">
+            <div className="footer__item">icons</div>
+            <div className="footer__item">hello@yay.com</div>
+            <div className="footer__item">Copyright 2020</div>
+          </Container>
         </div>
-      </Container>
+      
     </Router>
     
   );

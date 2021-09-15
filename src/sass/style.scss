@@ -2,6 +2,7 @@ $dark: #efefef;
 $cherry: #e92569;
 $navbar-light-color: #0a0a0a;
 $white: white;
+$grey: lightgrey;
 $paragraph-color: #767676;
 $background-color: #efefef;
 
@@ -18,3 +19,4 @@ $body-color: $paragraph-color;
 @import "partials/nav";
 @import "partials/typography";
 @import "partials/index";
+@import "partials/footer";
