@@ -1,7 +1,23 @@
 .tabs__folder {
   background-color: white;
+  padding: 30px;
+}
+
+li {
+  .nav-link {
+    color: $cherry;
+  }
+
+  .active {
+    background-color: white !important;
+    color: $paragraph-color !important;
+  }
 }
 
 .tabs__image {
   width: 238px;
+}
+
+.tabs__column {
+  border: 1px solid green;
 }

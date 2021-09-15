@@ -13,14 +13,14 @@ function TabAccordionPart() {
        
             <>
                     <div className="d-none d-md-block tabs">
-                        <Tabs defaultActiveKey="first" id="uncontrolled-tab-example" className="mb-3 tabs__container">
+                        <Tabs defaultActiveKey="first" id="uncontrolled-tab-example" className="tabs__container">
                             <Tab eventKey="first" title="First" className="tabs__folder">
-                                        <div className="tabs-content tabs__container">
-                                            <Row>
-                                                <Col md={4}>
+                                        <div className="tabs-content tabs__item">
+                                            <Row className="tabs__row">
+                                                <Col md="auto" className="tabs__column">
                                                     <img src= {firstPicture} alt="pic" className="tabs__image"/>
                                                 </Col>
-                                                <Col md={8}>
+                                                <Col className="tabs__column">
                                                     <p className="tabs__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
                                                 </Col>
                                             </Row>
