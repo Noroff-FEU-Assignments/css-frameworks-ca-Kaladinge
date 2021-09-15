@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
-
+import './sass/style.scss';
 import Home from './components/Home';
 
 
@@ -18,7 +18,7 @@ function App() {
   return (
     <Router>
       <div>
-       <Navbar bg="light" expand="lg">
+       <Navbar bg="dark" expand="lg">
           <Container>
             <Navbar.Brand href="#home">The YAY Company</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -36,7 +36,7 @@ function App() {
                   className="mr-2"
                   aria-label="Search"
                 />
-                <Button variant="outline-success">Go</Button>
+                <Button className="btn-secondary" variant="outline-success">Go</Button>
               </Form>
             </Navbar.Collapse>
           </Container>

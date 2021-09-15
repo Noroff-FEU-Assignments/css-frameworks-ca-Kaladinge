@@ -1,0 +1,20 @@
+$dark: #efefef;
+$cherry: #e92569;
+$navbar-light-color: #0a0a0a;
+$white: white;
+$paragraph-color: #767676;
+$background-color: #efefef;
+
+$theme-colors: (
+  "dark": $dark,
+  "secondary": $cherry,
+);
+
+$body-bg: $background-color;
+$body-color: $paragraph-color;
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "partials/nav";
+@import "partials/typography";
+@import "partials/index";
