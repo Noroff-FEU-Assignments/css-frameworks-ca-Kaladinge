@@ -14,19 +14,19 @@ function TabAccordionPart() {
                         <Tabs defaultActiveKey="first" id="uncontrolled-tab-example" className="mb-3">
                             <Tab eventKey="first" title="First">
                                 <div className="tabs-content">
-                                    <img src= {firstPicture}/>
+                                    <img src= {firstPicture} alt="pic"/>
                                     <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
                                 </div> 
                             </Tab>
                             <Tab eventKey="second" title="Second">
                                 <div className="tabs-content">
-                                    <img src= {secondPicture}/>
+                                    <img src= {secondPicture} alt="pic"/>
                                     <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
                                 </div>  
                             </Tab>
                             <Tab eventKey="third" title="Third">
                                 <div className="tabs-content">
-                                    <img src= {thirdPicture}/>
+                                    <img src= {thirdPicture} alt="pic"/>
                                     <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
                                 </div>   
                             </Tab>
@@ -39,7 +39,7 @@ function TabAccordionPart() {
                                     <Accordion.Body>
                                  <div className="accordion-content">
                                     <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
-                                    <img src= {firstPicture}/>
+                                    <img src= {firstPicture} alt="pic"/>
                                 </div>   
                                     </Accordion.Body>
                                 </Accordion.Item>
@@ -48,7 +48,7 @@ function TabAccordionPart() {
                                     <Accordion.Body>
                                      <div className="accordion-content">
                                     <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
-                                    <img src= {secondPicture}/>
+                                    <img src= {secondPicture} alt="pic"/>
                                 </div>   
                                     </Accordion.Body>
                                 </Accordion.Item>
@@ -57,7 +57,7 @@ function TabAccordionPart() {
                                     <Accordion.Body>
                                      <div className="accordion-content">
                                     <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
-                                    <img src= {thirdPicture}/>
+                                    <img src= {thirdPicture} alt="pic"/>
                                 </div>   
                                     </Accordion.Body>
                                 </Accordion.Item>
