@@ -2,16 +2,21 @@ import React from 'react'
 
 function ContactInfo() {
     return (
-        <div>
-            <div>hello@yay.com</div>
-            <div>123 456 7890</div>
-            <div>
-                <p>123 Some Street</p>
-                <p>Somewhere</p> 
-                <p>Some City</p>
-                <p>10000</p>
-            </div>
-        </div>
+        <ul>
+            <li>
+                <i class="fas fa-envelope"></i>
+                hello@yay.com
+            </li>
+            <li>
+                <i class="fas fa-phone"></i>123 456 7890
+            </li>
+            <li>
+                <i class="fas fa-map-marker-alt"></i>123 Some Street
+                <div>Somewhere </div>
+                <div>Some City</div>
+                <div>10000</div>
+            </li>
+        </ul>
     )
 }
 

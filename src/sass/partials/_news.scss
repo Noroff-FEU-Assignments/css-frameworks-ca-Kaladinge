@@ -1,0 +1,19 @@
+.btn-primary {
+  color: white;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.card {
+  margin-bottom: 30px;
+  border-radius: 10px;
+
+  &__image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+
+.card-title {
+  color: $navbar-light-color;
+}

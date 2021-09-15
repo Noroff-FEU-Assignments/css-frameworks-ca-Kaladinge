@@ -8,15 +8,20 @@ $background-color: #efefef;
 
 $theme-colors: (
   "dark": $dark,
+  "primary": $cherry,
   "secondary": $cherry,
 );
 
 $body-bg: $background-color;
 $body-color: $paragraph-color;
 
+$font-family-base: "Lato", "sans serif";
+$headings-font-family: "Playfair Display', serif";
+
 @import "~bootstrap/scss/bootstrap";
 
 @import "partials/nav";
 @import "partials/typography";
 @import "partials/index";
+@import "partials/news";
 @import "partials/footer";
