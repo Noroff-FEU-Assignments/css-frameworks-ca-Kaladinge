@@ -1,4 +1,29 @@
 .footer {
-  border: 1px solid green;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: $white;
+}
+
+.footer__column1 {
+  text-align: center;
+
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+.footer__column2 {
+  text-align: left;
+
+  @media (min-width: 768px) {
+    text-align: center;
+  }
+}
+
+.footer__column3 {
+  text-align: right;
+}
+
+.footer__icons {
+  font-size: 25px;
 }
