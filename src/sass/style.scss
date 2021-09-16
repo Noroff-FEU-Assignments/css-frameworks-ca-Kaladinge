@@ -4,8 +4,9 @@ $cherry: #e92569;
 $navbar-light-color: #0a0a0a;
 $white: white;
 $grey: lightgrey;
-$paragraph-color: $dark;
-$background-color: #efefef;
+$background-color: #dfdfdf;
+$background-color2: #f5f5f5;
+$button-color: #c7c7c7;
 
 $theme-colors: (
   "light": $light,
@@ -14,8 +15,7 @@ $theme-colors: (
   "secondary": $cherry,
 );
 
-$body-bg: $background-color;
-$body-color: $paragraph-color;
+$body-color: $dark;
 
 $font-family-base: "Lato", "sans serif";
 $headings-font-family: "Playfair Display', serif";

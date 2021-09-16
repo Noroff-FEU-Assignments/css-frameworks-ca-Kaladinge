@@ -18,7 +18,10 @@ function FormPart() {
                 </Form.Group>
                 <Form.Group className="mb-3 form__group" controlId="exampleForm.ControlInput1">
                     <Form.Label className="form__label">Website</Form.Label>
-                    <Form.Control type="website" className="form__control"/>
+                    <div className="form__website">
+                        <div className="form__url">https://</div>
+                        <Form.Control type="text" className="form__control form__control--website"/>
+                    </div>
                 </Form.Group>
                 <Form.Group className="mb-3 form__group" controlId="exampleForm.ControlTextarea1">
                     <Form.Label className="form__label">Example textarea</Form.Label>
@@ -28,7 +31,7 @@ function FormPart() {
                 <Form.Check type="checkbox" label="Allow us to sell your personal details to whomever we want" 
                                 className="form__check"/>
                 </Form.Group>
-                <Button type="submit" className="btn-primary btn-dark">
+                <Button type="submit" className="btn-dark">
                     Submit
                 </Button>
             </Form>

@@ -17,9 +17,7 @@ function CarouselPart() {
                     src= {firstPicture}
                     alt="TVs and a bike"
                     />
-                    <Carousel.Caption>
                     
-                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
@@ -28,9 +26,7 @@ function CarouselPart() {
                     alt="Camera"
                     />
 
-                    <Carousel.Caption>
                     
-                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
@@ -39,9 +35,7 @@ function CarouselPart() {
                     alt="Broken TV"
                     />
 
-                    <Carousel.Caption>
                     
-                    </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
     

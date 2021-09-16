@@ -1,12 +1,37 @@
+/* top part */
+
+.carousel-indicators [data-bs-target] {
+  height: 30px;
+  margin: 0 8px;
+  opacity: 1;
+  background-color: white;
+}
+
+.carousel-indicators {
+  .active {
+    background-color: $cherry;
+  }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+/* middle part */
+/* text */
+
 .textpart {
   margin-bottom: 80px;
 }
 
+/* bottom part */
 /* tabs */
 
 .tabs__folder {
   background-color: white;
   padding: 30px;
+  margin-bottom: 120px;
 }
 
 li {
@@ -16,7 +41,7 @@ li {
 
   .active {
     background-color: white !important;
-    color: $paragraph-color !important;
+    color: $dark !important;
   }
 }
 
@@ -52,7 +77,11 @@ li {
 }
 
 .accordion__body {
-  background-color: $grey;
+  background-image: radial-gradient(
+    circle at center,
+    $white,
+    $background-color2
+  );
 }
 
 .accordion__image {
