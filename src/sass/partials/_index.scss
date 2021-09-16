@@ -32,16 +32,20 @@
   background-color: white;
   padding: 30px;
   margin-bottom: 120px;
+  border-radius: 0 10px 10px 10px;
 }
 
 li {
   .nav-link {
     color: $cherry;
+    padding: 10px 31px;
+    margin-left: -1px;
   }
 
   .active {
     background-color: white !important;
     color: $dark !important;
+    border-radius: 10px 10px 0 0 !important;
   }
 }
 
