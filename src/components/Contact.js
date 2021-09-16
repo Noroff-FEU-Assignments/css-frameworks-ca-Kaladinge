@@ -8,13 +8,12 @@ import Col from 'react-bootstrap/Col';
 function Contact() {
     return (
         <Container>
-            <h1>Submit your details</h1>
             <Row>
-                <Col xs={12} md={6}>
-                    <FormPart/>
-                </Col>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={6} className="order-md-2">
                     <ContactInfo/>
+                </Col>
+                <Col xs={12} md={6} className="order-md-1">
+                    <FormPart/>
                 </Col>
             </Row>
         </Container>

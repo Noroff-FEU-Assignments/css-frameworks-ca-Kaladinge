@@ -19,8 +19,8 @@ import Col from "react-bootstrap/Col";
 function App() {
   return (
     <Router>
-      <div>
-       <Navbar bg="dark" expand="lg">
+      <div className="wrapper">
+       <Navbar bg="light" expand="lg">
           <Container>
             <Navbar.Brand href="#home">The YAY Company</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -74,21 +74,29 @@ function TabAccordionPart() {
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="1">
-                                    <Accordion.Header>Second</Accordion.Header>
-                                    <Accordion.Body>
-                                     <div className="accordion-content">
-                                    <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
-                                    <img src= {secondPicture} alt="pic"/>
-                                </div>   
+                                    <Accordion.Header className="accordion__header">Second</Accordion.Header>
+                                    <Accordion.Body className="accordion__body">
+                                        <div className="accordion__content">
+                                            <p className="accordion__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
+                                            <img src= {secondPicture} alt="pic" className="accordion__image"/>
+                                            <div className="accordion__iconholder">
+                                                <i className="fab fa-facebook-f accordion__icon"></i>
+                                                <i className="fab fa-twitter accordion__icon"></i>
+                                            </div>
+                                        </div>   
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="2">
-                                    <Accordion.Header>Third</Accordion.Header>
-                                    <Accordion.Body>
-                                     <div className="accordion-content">
-                                    <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
-                                    <img src= {thirdPicture} alt="pic"/>
-                                </div>   
+                                    <Accordion.Header className="accordion__header">Third</Accordion.Header>
+                                    <Accordion.Body className="accordion__body">
+                                        <div className="accordion__content">
+                                            <p className="accordion__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
+                                            <img src= {thirdPicture} alt="pic" className="accordion__image"/>
+                                            <div className="accordion__iconholder">
+                                                <i className="fab fa-facebook-f accordion__icon"></i>
+                                                <i className="fab fa-twitter accordion__icon"></i>
+                                            </div>
+                                        </div>   
                                     </Accordion.Body>
                                 </Accordion.Item>
                                

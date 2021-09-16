@@ -1,12 +1,14 @@
-$dark: #efefef;
+$light: #efefef;
+$dark: #767676;
 $cherry: #e92569;
 $navbar-light-color: #0a0a0a;
 $white: white;
 $grey: lightgrey;
-$paragraph-color: #767676;
+$paragraph-color: $dark;
 $background-color: #efefef;
 
 $theme-colors: (
+  "light": $light,
   "dark": $dark,
   "primary": $cherry,
   "secondary": $cherry,
@@ -24,4 +26,6 @@ $headings-font-family: "Playfair Display', serif";
 @import "partials/typography";
 @import "partials/index";
 @import "partials/news";
+@import "partials/contact";
+@import "partials/layout";
 @import "partials/footer";

@@ -1,0 +1,57 @@
+/* form */
+
+.form {
+  border: 1px solid black;
+  padding: 30px;
+  margin-bottom: 120px;
+  margin-top: 30px;
+
+  &__label {
+    margin-top: 0;
+  }
+
+  &__control {
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .form-check-input {
+    background-color: $cherry;
+    width: 33px;
+    height: 33px;
+  }
+
+  .form-check-label {
+    padding: 7px 7px;
+  }
+
+  .btn-dark {
+    background-color: $dark;
+    border: $dark;
+  }
+}
+
+/* contact-info */
+
+.contactinfo {
+  list-style: none;
+  padding: left;
+  margin-top: 115px;
+
+  @media (max-width: 768px) {
+    margin-top: 25px;
+  }
+
+  &__item {
+    margin-bottom: 25px;
+  }
+
+  &__icon {
+    font-size: 30px;
+    margin-right: 25px;
+  }
+
+  &__text {
+    margin-left: 51px;
+  }
+}
