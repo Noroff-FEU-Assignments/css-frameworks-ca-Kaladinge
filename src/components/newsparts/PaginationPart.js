@@ -1,6 +1,8 @@
-let active = 2;
+import Pagination from 'react-bootstrap/Pagination'
+
+let active = 1;
 let items = [];
-for (let number = 1; number <= 5; number++) {
+for (let number = 1; number <= 4; number++) {
   items.push(
     <Pagination.Item key={number} active={number === active}>
       {number}
@@ -8,16 +10,14 @@ for (let number = 1; number <= 5; number++) {
   );
 }
 
-const paginationBasic = (
+const PaginationBasic = (
   <div>
-    <Pagination>{items}</Pagination>
+
     <br />
 
     <Pagination size="lg">{items}</Pagination>
     <br />
-
-    <Pagination size="sm">{items}</Pagination>
   </div>
 );
 
-render(paginationBasic);
+export default PaginationBasic;
