@@ -12,11 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: radial-gradient(
-    circle at center,
-    $white,
-    $background-color
-  );
+  background-image: radial-gradient($white, $background-color);
 }
 
 .wrapper {

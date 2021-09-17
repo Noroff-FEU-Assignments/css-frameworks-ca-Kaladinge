@@ -33,6 +33,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .card2 {
+    display: none;
+  }
+}
+
 /* pagination */
 
 .page-item.active {

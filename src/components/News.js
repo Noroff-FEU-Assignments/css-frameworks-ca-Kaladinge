@@ -1,7 +1,9 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
-import CardPart from './newsparts/CardPart';
 import PaginationBasic from './newsparts/PaginationPart';
+
+
+import CardBasic from './newsparts/CardPart';
 
 
 function News() {
@@ -9,7 +11,7 @@ function News() {
         <Container>
             <h1>News</h1>
             {PaginationBasic}
-            <CardPart/>
+                {CardBasic}
             {PaginationBasic}
         </Container>
     )
