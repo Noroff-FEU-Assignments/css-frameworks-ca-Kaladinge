@@ -26,7 +26,7 @@ for (let number = 1; number <= 8; number++) {
   items.push(
     <Col xs={12} sm={6} lg={3} key={number}>
         <Card className={cardClass}>
-                    <Card.Img variant="top" src= {pictures[number-1]} className="card__image" />
+                    <Card.Img variant="top" src= {pictures[number-1]} className="card__image" alt="newspicture"/>
                     <Card.Body>
                         <Card.Title>Nunc porttitor vel</Card.Title>
                         <Card.Text>

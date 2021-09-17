@@ -19,7 +19,7 @@ function CardPart() {
         <Row>
              <Col xs={12} sm={6} lg={3}>
                 <Card className="card">
-                <Card.Img variant="top" src= {firstPicture} className="card__image" />
+                <Card.Img variant="top" src= {firstPicture} className="card__image" alt="newspicture"/>
                 <Card.Body>
                     <Card.Title>Nunc porttitor vel</Card.Title>
                     <Card.Text>
@@ -31,7 +31,7 @@ function CardPart() {
             </Col>
             <Col xs={12} sm={6} lg={3}>
                 <Card className="card">
-                <Card.Img variant="top" src= {secondPicture} className="card__image"/>
+                <Card.Img variant="top" src= {secondPicture} className="card__image" alt="newspicture"/>
                 <Card.Body>
                     <Card.Title>Nunc porttitor vel</Card.Title>
                     <Card.Text>
@@ -43,7 +43,7 @@ function CardPart() {
             </Col>
             <Col xs={12} sm={6} lg={3}>
                 <Card className="card">
-                <Card.Img variant="top" src={thirdPicture} className="card__image"/>
+                <Card.Img variant="top" src={thirdPicture} className="card__image" alt="newspicture"/>
                 <Card.Body>
                     <Card.Title>Nunc porttitor vel</Card.Title>
                     <Card.Text>
@@ -55,7 +55,7 @@ function CardPart() {
             </Col>
             <Col xs={12} sm={6} lg={3}>
                 <Card className="card">
-                <Card.Img variant="top" src={fourthPicture} className="card__image"/>
+                <Card.Img variant="top" src={fourthPicture} className="card__image" alt="newspicture"/>
                 <Card.Body>
                     <Card.Title>Nunc porttitor vel</Card.Title>
                     <Card.Text>
@@ -79,7 +79,7 @@ function CardPart() {
             </Col>
             <Col xs={12} sm={6} lg={3}>
                 <Card className="card">
-                <Card.Img variant="top" src={sixthPicture} className="card__image"/>
+                <Card.Img variant="top" src={sixthPicture} className="card__image" alt="newspicture"/>
                 <Card.Body>
                     <Card.Title>Nunc porttitor vel</Card.Title>
                     <Card.Text>
@@ -91,7 +91,7 @@ function CardPart() {
             </Col>
             <Col xs={12} sm={6} lg={3}>
                 <Card className="card">
-                <Card.Img variant="top" src={seventhPicture} className="card__image"/>
+                <Card.Img variant="top" src={seventhPicture} className="card__image" alt="newspicture"/>
                 <Card.Body>
                     <Card.Title>Nunc porttitor vel</Card.Title>
                     <Card.Text>
@@ -103,7 +103,7 @@ function CardPart() {
             </Col>
             <Col xs={12} sm={6} lg={3}>
                 <Card className="card">
-                <Card.Img variant="top" src={eightPicture} className="card__image"/>
+                <Card.Img variant="top" src={eightPicture} className="card__image" alt="newspicture"/>
                 <Card.Body>
                     <Card.Title>Nunc porttitor vel</Card.Title>
                     <Card.Text>
