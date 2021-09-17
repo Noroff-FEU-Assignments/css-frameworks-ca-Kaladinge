@@ -4,6 +4,12 @@
   background-color: $white;
 }
 
+@media (max-width: 768px) {
+  .footer__column {
+    padding: 20px;
+  }
+}
+
 .footer__column1 {
   text-align: center;
 
@@ -26,4 +32,5 @@
 
 .footer__icons {
   font-size: 25px;
+  padding-right: 10px;
 }

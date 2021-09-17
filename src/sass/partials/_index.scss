@@ -5,6 +5,7 @@
   margin: 0 8px;
   opacity: 1;
   background-color: white;
+  border-radius: 3px/13px;
 }
 
 .carousel-indicators {
@@ -16,6 +17,13 @@
 .carousel-control-prev,
 .carousel-control-next {
   display: none;
+}
+
+@media (max-width: 768px) {
+  .carousel__image {
+    object-fit: cover;
+    height: 230px;
+  }
 }
 
 /* middle part */
@@ -37,15 +45,12 @@
 
 li {
   .nav-link {
-    color: $cherry;
     padding: 10px 31px;
     margin-left: -1px;
   }
 
   .active {
-    background-color: white !important;
-    color: $dark !important;
-    border-radius: 10px 10px 0 0 !important;
+    background-color: white;
   }
 }
 
@@ -55,30 +60,26 @@ li {
 
 .tabs__icon,
 .accordion__icon {
-  margin: 35px 20px 0 0;
+  margin: 55px 20px 0 0;
   color: black;
   font-size: 25px;
   text-transform: uppercase;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    margin: 20px 20px;
+  }
+}
+
+.tabs__icon--share,
+.accordion__icon--share {
+  font-size: 20px;
 }
 
 /* accordion */
 
 .accordion {
   margin-bottom: 120px;
-}
-
-.colors {
-  color: $cherry;
-  background-color: $white;
-}
-
-.accordion-button:not(.collapsed) {
-  @extend .colors;
-  border-bottom: 1px solid $cherry;
-}
-
-.accordion-button {
-  @extend .colors;
 }
 
 .accordion__body {

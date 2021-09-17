@@ -20,10 +20,11 @@
 
   .nav-link.active {
     background-color: $white;
+    border-radius: 5px;
   }
 
   .btn-secondary {
-    color: white;
+    color: $white;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }

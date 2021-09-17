@@ -16,12 +16,12 @@
     padding: 10px;
   }
 
-  .form__website {
+  &__website {
     display: flex;
     flex-direction: row;
   }
 
-  .form__url {
+  &__url {
     width: 84px;
     background-color: $button-color;
     color: $white;
@@ -41,7 +41,9 @@
   }
 
   .form-check-label {
-    padding: 7px 7px;
+    padding: 6px;
+    width: 95%;
+    font-size: 15px;
   }
 
   .btn-dark {

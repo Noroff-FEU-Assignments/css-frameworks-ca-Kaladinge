@@ -10,10 +10,10 @@ import thirdPicture from '../../Carousel images/carousel-3.jpg';
 function CarouselPart() {
     return (
         
-            <Carousel>
+            <Carousel className="carousel">
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
+                    className="w-100 carousel__image"
                     src= {firstPicture}
                     alt="TVs and a bike"
                     />
@@ -21,7 +21,7 @@ function CarouselPart() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
+                    className="d-block w-100 carousel__image"
                     src= {secondPicture}
                     alt="Camera"
                     />
@@ -30,7 +30,7 @@ function CarouselPart() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
+                    className="d-block w-100 carousel__image"
                     src= {thirdPicture}
                     alt="Broken TV"
                     />

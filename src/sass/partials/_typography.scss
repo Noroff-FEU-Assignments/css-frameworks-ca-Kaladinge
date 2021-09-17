@@ -1,5 +1,51 @@
 h1 {
   color: $cherry;
   font-size: 34px;
-  margin-top: 40px;
+  margin-top: 30px;
+}
+
+/* Home */
+/* Tab */
+
+li {
+  .nav-link {
+    color: $cherry;
+    font-size: 19px;
+  }
+}
+
+/* Accordion */
+
+.colors {
+  color: $cherry;
+  background-color: $white;
+  font-size: 19px;
+  font-family: $font-family-base;
+}
+
+.accordion-button:not(.collapsed) {
+  @extend .colors;
+  border-bottom: 1px solid $cherry;
+}
+
+.accordion-button {
+  @extend .colors;
+}
+
+/* News */
+/* Cards */
+
+.card-title {
+  color: $navbar-light-color;
+  font-family: $font-family-base;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+/* Contact */
+
+.form__label {
+  font-size: 20px;
 }

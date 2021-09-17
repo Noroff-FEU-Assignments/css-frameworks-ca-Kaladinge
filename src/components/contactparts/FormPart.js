@@ -8,15 +8,15 @@ function FormPart() {
         <>
             <h1>Submit your details</h1>
             <Form className="form">
-                <Form.Group className="mb-3 form__group" controlId="exampleForm.ControlInput1">
+                <Form.Group className="mb-2 form__group" controlId="exampleForm.ControlInput1">
                     <Form.Label className="form__label">Name</Form.Label>
                     <Form.Control type="name" className="form__control"/>
                 </Form.Group>
-                <Form.Group className="mb-3 form__group" controlId="exampleForm.ControlInput1">
+                <Form.Group className="mb-2 form__group" controlId="exampleForm.ControlInput1">
                     <Form.Label className="form__label">Email</Form.Label>
                     <Form.Control type="email" className="form__control"/>
                 </Form.Group>
-                <Form.Group className="mb-3 form__group" controlId="exampleForm.ControlInput1">
+                <Form.Group className="mb-2 form__group" controlId="exampleForm.ControlInput1">
                     <Form.Label className="form__label">Website</Form.Label>
                     <div className="form__website">
                         <div className="form__url">https://</div>

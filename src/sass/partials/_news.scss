@@ -4,15 +4,20 @@
   margin-bottom: 30px;
   border-radius: 10px;
 
+  .card-body {
+    width: 90%;
+    margin: auto;
+  }
+
   &__image {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     object-fit: cover;
     height: 190px;
-  }
 
-  .card-title {
-    color: $navbar-light-color;
+    @media (max-width: 990px) {
+      height: auto;
+    }
   }
 
   .btn-primary:after {

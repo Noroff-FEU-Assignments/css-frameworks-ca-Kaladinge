@@ -62,16 +62,16 @@ function App() {
         <div className="footer">
           <Container className="footer__container">
             <Row>
-              <Col xs={12} md={4} className="footer__column1">
+              <Col xs={12} md={4} className="footer__column footer__column1">
                 <div className="footer__item">
                   <i className="fab fa-vimeo-v footer__icons"></i>
                   <i className="fab fa-youtube footer__icons"></i>
                 </div>
               </Col>
-              <Col xs={6} md={4} className="footer__column2">
+              <Col xs={6} md={4} className="footer__column footer__column2">
                 <div className="footer__item">hello@yay.com</div>
               </Col>
-              <Col xs={6} md={4} className="footer__column3">
+              <Col xs={6} md={4} className="footer__column footer__column3">
                 <div className="footer__item">Copyright 2020</div>
               </Col>
             </Row>

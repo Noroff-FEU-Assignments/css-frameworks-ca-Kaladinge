@@ -22,7 +22,7 @@ function TabAccordionPart() {
                                                 </Col>
                                                 <Col className="tabs__column">
                                                     <p className="tabs__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
-                                                    <span className="tabs__icon">Share</span>
+                                                    <span className="tabs__icon tabs__icon--share">Share</span>
                                                     <i className="fab fa-facebook-f tabs__icon"></i>
                                                     <i className="fab fa-twitter tabs__icon"></i>
                                                 </Col>
@@ -37,7 +37,7 @@ function TabAccordionPart() {
                                                 </Col>
                                                 <Col className="tabs__column">
                                                     <p className="tabs__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
-                                                    <span className="tabs__icon">Share</span>
+                                                    <span className="tabs__icon tabs__icon--share">Share</span>
                                                     <i className="fab fa-facebook-f tabs__icon"></i>
                                                     <i className="fab fa-twitter tabs__icon"></i>
                                                 </Col>
@@ -52,7 +52,7 @@ function TabAccordionPart() {
                                                 </Col>
                                                 <Col className="tabs__column">
                                                     <p className="tabs__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
-                                                    <span className="tabs__icon">Share</span>
+                                                    <span className="tabs__icon tabs__icon--share">Share</span>
                                                     <i className="fab fa-facebook-f tabs__icon"></i>
                                                     <i className="fab fa-twitter tabs__icon"></i>
                                                 </Col>
@@ -70,7 +70,7 @@ function TabAccordionPart() {
                                             <p className="accordion__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
                                             <img src= {firstPicture} alt="pic" className="accordion__image"/>
                                             <div className="accordion__iconholder">
-                                                <span className="accordion__icon">Share</span>
+                                                <span className="accordion__icon accordion__icon--share">Share</span>
                                                 <i className="fab fa-facebook-f accordion__icon"></i>
                                                 <i className="fab fa-twitter accordion__icon"></i>
                                             </div>
@@ -84,7 +84,7 @@ function TabAccordionPart() {
                                             <p className="accordion__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
                                             <img src= {secondPicture} alt="pic" className="accordion__image"/>
                                             <div className="accordion__iconholder">
-                                                <span className="accordion__icon">Share</span>
+                                                <span className="accordion__icon accordion__icon--share">Share</span>
                                                 <i className="fab fa-facebook-f accordion__icon"></i>
                                                 <i className="fab fa-twitter accordion__icon"></i>
                                             </div>
@@ -98,7 +98,7 @@ function TabAccordionPart() {
                                             <p className="accordion__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
                                             <img src= {thirdPicture} alt="pic" className="accordion__image"/>
                                             <div className="accordion__iconholder">
-                                                <span className="accordion__icon">Share</span>
+                                                <span className="accordion__icon accordion__icon--share">Share</span>
                                                 <i className="fab fa-facebook-f accordion__icon"></i>
                                                 <i className="fab fa-twitter accordion__icon"></i>
                                             </div>
