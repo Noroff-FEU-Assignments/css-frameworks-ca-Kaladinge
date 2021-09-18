@@ -12,9 +12,7 @@ for (let number = 1; number <= 4; number++) {
 
 const PaginationBasic = (
   <div>
-
     <br />
-
     <Pagination size="lg">{items}</Pagination>
     <br />
   </div>

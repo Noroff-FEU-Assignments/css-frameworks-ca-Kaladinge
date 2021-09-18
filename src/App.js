@@ -22,14 +22,13 @@ function App() {
       <div className="wrapper">
        <Navbar bg="light" expand="lg">
           <Container>
-            <Navbar.Brand href="#home">The YAY Company</Navbar.Brand>
+            <Navbar.Brand href="/">The YAY Company</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <NavLink exact to="/" className="nav-link">Home</NavLink>
                 <NavLink to="/news" className="nav-link">News</NavLink>
                 <NavLink to="/contact" className="nav-link">Contact</NavLink>
-                
               </Nav>
               <Form className="d-flex">
                 <FormControl
@@ -77,7 +76,6 @@ function App() {
             </Row>
           </Container>
         </div>
-      
     </Router>
     
   );

@@ -2,35 +2,36 @@
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: $white;
-}
+  margin-top: 90px;
 
-@media (max-width: 768px) {
-  .footer__column {
-    padding: 20px;
+  @media (max-width: 768px) {
+    &__column {
+      padding: 20px;
+    }
   }
-}
 
-.footer__column1 {
-  text-align: center;
-
-  @media (min-width: 768px) {
-    text-align: left;
-  }
-}
-
-.footer__column2 {
-  text-align: left;
-
-  @media (min-width: 768px) {
+  &__column1 {
     text-align: center;
+
+    @media (min-width: 768px) {
+      text-align: left;
+    }
   }
-}
 
-.footer__column3 {
-  text-align: right;
-}
+  &__column2 {
+    text-align: left;
 
-.footer__icons {
-  font-size: 25px;
-  padding-right: 10px;
+    @media (min-width: 768px) {
+      text-align: center;
+    }
+  }
+
+  &__column3 {
+    text-align: right;
+  }
+
+  &__icons {
+    font-size: 25px;
+    padding-right: 10px;
+  }
 }

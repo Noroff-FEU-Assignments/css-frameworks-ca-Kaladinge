@@ -5,15 +5,15 @@ import TextPart from './homeparts/TextPart'
 import TabAccordionPart from './homeparts/TabAccordionPart'
 
 function Home() {
-    return (
-        <>
-            <CarouselPart/>
-            <Container>
-                <TextPart/>
-                <TabAccordionPart/>
-            </Container>
-        </>
-    )
+  return (
+    <>
+      <CarouselPart/>
+        <Container>
+          <TextPart/>
+          <TabAccordionPart/>
+        </Container>
+    </>
+  )
 }
 
 export default Home

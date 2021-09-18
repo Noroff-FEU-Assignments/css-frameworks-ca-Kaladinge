@@ -33,3 +33,9 @@ body {
   position: relative;
   border: none;
 }
+
+.btn-secondary {
+  color: $white;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

@@ -11,105 +11,102 @@ import Col from 'react-bootstrap/Col';
 
 
 function TabAccordionPart() {
-    return (
-       
-            <>
-                    <div className="d-none d-md-block tabs">
-                        <Tabs defaultActiveKey="first" id="uncontrolled-tab-example" className="tabs__container">
-                            <Tab eventKey="first" title="First" className="tabs__folder">
-                                        <div className="tabs-content tabs__item">
-                                            <Row className="tabs__row">
-                                                <Col md="auto" className="tabs__column">
-                                                    <img src= {firstPicture} alt="TV" className="tabs__image"/>
-                                                </Col>
-                                                <Col className="tabs__column">
-                                                    <p className="tabs__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
-                                                    <span className="tabs__icon tabs__icon--share">Share</span>
-                                                    <i className="fab fa-facebook-f tabs__icon"></i>
-                                                    <i className="fab fa-twitter tabs__icon"></i>
-                                                </Col>
-                                            </Row>
-                                        </div>  
-                            </Tab>
-                            <Tab eventKey="second" title="Second" className="tabs__folder">
-                                <div className="tabs-content tabs__item">
-                                            <Row className="tabs__row">
-                                                <Col md="auto" className="tabs__column">
-                                                    <img src= {secondPicture} alt="pictures" className="tabs__image"/>
-                                                </Col>
-                                                <Col className="tabs__column">
-                                                    <p className="tabs__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
-                                                    <span className="tabs__icon tabs__icon--share">Share</span>
-                                                    <i className="fab fa-facebook-f tabs__icon"></i>
-                                                    <i className="fab fa-twitter tabs__icon"></i>
-                                                </Col>
-                                            </Row>
-                                        </div>  
-                            </Tab>
-                            <Tab eventKey="third" title="Third" className="tabs__folder">
-                                <div className="tabs-content tabs__item">
-                                            <Row className="tabs__row">
-                                                <Col md="auto" className="tabs__column">
-                                                    <img src= {thirdPicture} alt="window" className="tabs__image"/>
-                                                </Col>
-                                                <Col className="tabs__column">
-                                                    <p className="tabs__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
-                                                    <span className="tabs__icon tabs__icon--share">Share</span>
-                                                    <i className="fab fa-facebook-f tabs__icon"></i>
-                                                    <i className="fab fa-twitter tabs__icon"></i>
-                                                </Col>
-                                            </Row>
-                                </div>  
-                            </Tab>
-                    
-                        </Tabs>
-                    </div>
-                        <Accordion defaultActiveKey="0" className="d-md-none accordion">
-                                <Accordion.Item eventKey="0" className="accordion__item">
-                                    <Accordion.Header className="accordion__header">First</Accordion.Header>
-                                    <Accordion.Body className="accordion__body">
-                                        <div className="accordion__content">
-                                            <p className="accordion__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
-                                            <img src= {firstPicture} alt="TV" className="accordion__image"/>
-                                            <div className="accordion__iconholder">
-                                                <span className="accordion__icon accordion__icon--share">Share</span>
-                                                <i className="fab fa-facebook-f accordion__icon"></i>
-                                                <i className="fab fa-twitter accordion__icon"></i>
-                                            </div>
-                                        </div>   
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="1">
-                                    <Accordion.Header className="accordion__header">Second</Accordion.Header>
-                                    <Accordion.Body className="accordion__body">
-                                        <div className="accordion__content">
-                                            <p className="accordion__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
-                                            <img src= {secondPicture} alt="pictures" className="accordion__image"/>
-                                            <div className="accordion__iconholder">
-                                                <span className="accordion__icon accordion__icon--share">Share</span>
-                                                <i className="fab fa-facebook-f accordion__icon"></i>
-                                                <i className="fab fa-twitter accordion__icon"></i>
-                                            </div>
-                                        </div>   
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="2">
-                                    <Accordion.Header className="accordion__header">Third</Accordion.Header>
-                                    <Accordion.Body className="accordion__body">
-                                        <div className="accordion__content">
-                                            <p className="accordion__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
-                                            <img src= {thirdPicture} alt="window" className="accordion__image"/>
-                                            <div className="accordion__iconholder">
-                                                <span className="accordion__icon accordion__icon--share">Share</span>
-                                                <i className="fab fa-facebook-f accordion__icon"></i>
-                                                <i className="fab fa-twitter accordion__icon"></i>
-                                            </div>
-                                        </div>   
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                               
-                    </Accordion>
-        </>
+  return (
+    <>
+      <div className="d-none d-md-block tabs">
+        <Tabs defaultActiveKey="first" id="uncontrolled-tab-example" className="tabs__container">
+          <Tab eventKey="first" title="First" className="tabs__folder">
+              <div className="tabs-content tabs__item">
+                <Row className="tabs__row">
+                  <Col md="auto" className="tabs__column">
+                    <img src= {firstPicture} alt="TV" className="tabs__image"/>
+                  </Col>
+                  <Col className="tabs__column">
+                    <p className="tabs__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
+                      <span className="tabs__icon tabs__icon--share">Share</span>
+                      <i className="fab fa-facebook-f tabs__icon"></i>
+                      <i className="fab fa-twitter tabs__icon"></i>
+                  </Col>
+                </Row>
+              </div>  
+          </Tab>
+          <Tab eventKey="second" title="Second" className="tabs__folder">
+              <div className="tabs-content tabs__item">
+                <Row className="tabs__row">
+                  <Col md="auto" className="tabs__column">
+                    <img src= {secondPicture} alt="pictures" className="tabs__image"/>
+                  </Col>
+                  <Col className="tabs__column">
+                    <p className="tabs__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
+                    <span className="tabs__icon tabs__icon--share">Share</span>
+                    <i className="fab fa-facebook-f tabs__icon"></i>
+                    <i className="fab fa-twitter tabs__icon"></i>
+                  </Col>
+                </Row>
+              </div>  
+          </Tab>
+          <Tab eventKey="third" title="Third" className="tabs__folder">
+              <div className="tabs-content tabs__item">
+                <Row className="tabs__row">
+                  <Col md="auto" className="tabs__column">
+                    <img src= {thirdPicture} alt="window" className="tabs__image"/>
+                  </Col>
+                  <Col className="tabs__column">
+                    <p className="tabs__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
+                    <span className="tabs__icon tabs__icon--share">Share</span>
+                    <i className="fab fa-facebook-f tabs__icon"></i>
+                    <i className="fab fa-twitter tabs__icon"></i>
+                  </Col>
+                </Row>
+              </div>  
+          </Tab>
+          </Tabs>
+              </div>
+                <Accordion defaultActiveKey="0" className="d-md-none accordion">
+                  <Accordion.Item eventKey="0" className="accordion__item">
+                    <Accordion.Header className="accordion__header">First</Accordion.Header>
+                    <Accordion.Body className="accordion__body">
+                        <div className="accordion__content">
+                          <p className="accordion__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
+                          <img src= {firstPicture} alt="TV" className="accordion__image"/>
+                          <div className="accordion__iconholder">
+                            <span className="accordion__icon accordion__icon--share">Share</span>
+                              <i className="fab fa-facebook-f accordion__icon"></i>
+                              <i className="fab fa-twitter accordion__icon"></i>
+                          </div>
+                        </div>   
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="1">
+                    <Accordion.Header className="accordion__header">Second</Accordion.Header>
+                    <Accordion.Body className="accordion__body">
+                      <div className="accordion__content">
+                        <p className="accordion__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
+                        <img src= {secondPicture} alt="pictures" className="accordion__image"/>
+                        <div className="accordion__iconholder">
+                          <span className="accordion__icon accordion__icon--share">Share</span>
+                          <i className="fab fa-facebook-f accordion__icon"></i>
+                          <i className="fab fa-twitter accordion__icon"></i>
+                        </div>
+                      </div>   
+                    </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="2">
+                      <Accordion.Header className="accordion__header">Third</Accordion.Header>
+                        <Accordion.Body className="accordion__body">
+                          <div className="accordion__content">
+                            <p className="accordion__text">Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus.</p>
+                            <img src= {thirdPicture} alt="window" className="accordion__image"/>
+                            <div className="accordion__iconholder">
+                              <span className="accordion__icon accordion__icon--share">Share</span>
+                              <i className="fab fa-facebook-f accordion__icon"></i>
+                              <i className="fab fa-twitter accordion__icon"></i>
+                            </div>
+                          </div>   
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+      </>
         
     )
 }

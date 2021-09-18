@@ -16,34 +16,29 @@ import Col from 'react-bootstrap/Col';
 let items = [];
 for (let number = 1; number <= 8; number++) {
 
-    let pictures = [firstPicture,secondPicture,thirdPicture,fourthPicture,fifthPicture,sixthPicture,seventhPicture,eightPicture];
+  let pictures = [firstPicture,secondPicture,thirdPicture,fourthPicture,fifthPicture,sixthPicture,seventhPicture,eightPicture];
 
-    let cardClass = ""
-    if(number >= 5) {
-        cardClass += "card2";
-    }
+  let cardClass = ""
+  if(number >= 5) {
+    cardClass += "card2";
+  }
 
   items.push(
     <Col xs={12} sm={6} lg={3} key={number}>
-        <Card className={cardClass}>
-                    <Card.Img variant="top" src= {pictures[number-1]} className="card__image" alt="newspicture"/>
-                    <Card.Body>
-                        <Card.Title>Nunc porttitor vel</Card.Title>
-                        <Card.Text>
-                        Nunc malesuada eget est fringilla dapibus.
-                        </Card.Text>
-                        <Button variant="primary" className="card__button">More</Button>
-                    </Card.Body>
-        </Card>
+      <Card className={cardClass}>
+        <Card.Img variant="top" src= {pictures[number-1]} className="card__image" alt="newspicture"/>
+        <Card.Body className="mx-auto">
+          <Card.Title>Nunc porttitor vel</Card.Title>
+          <Card.Text>Nunc malesuada eget est fringilla dapibus.</Card.Text>
+          <Button variant="primary" className="card__button">More</Button>
+        </Card.Body>
+      </Card>
     </Col>
-
-    
   );
 }
 
 const CardBasic = (
-
-    <Row >{items}</Row>
+  <Row >{items}</Row>
 );
 
 export default CardBasic;
